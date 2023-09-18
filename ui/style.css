@@ -1,0 +1,58 @@
+.mastercity_HUD{
+	margin: 30px auto;
+	width: 200px;
+	padding: 10px;
+	text-align: center;
+	direction: rtl;
+}
+
+.hide{
+	display:none;
+}
+
+*{
+	font-size:12px;
+	font-family: 'iransans', sans-serif;
+	color: #000;
+}
+
+p{
+	color: #000;
+	background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+	padding: 5px;
+}
+
+.text-effect{
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+
+.text-effect div {
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #eb3434 0%, #65f032 33%, #3e42fa 66%, #eb3434 100%);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2.5s linear infinite;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.clock {
+	position:absolute;
+    bottom:10px;
+    left:17%;
+	color: #fff;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
